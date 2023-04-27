@@ -204,8 +204,10 @@
      </div>
      <div class="right box">
        <div class="topic">Subscribe us</div>
-       <form action="#">
-         <input type="text" placeholder="Enter email address">
+       <form method="POST" data-netlify="true">
+         <input type="text" placeholder="Enter email address" name="email">
+	       <input type="hidden" name="form-name" value="contact">
+
          <input type="submit" name="" value="Send">
          <div class="media-icons">
            <a href="#"><i class="fab fa-facebook-f"></i></a>
