@@ -227,9 +227,10 @@ font-size: 25px;
 /* progress bar */
 
 .skills{
-	height: 400px;
+	height: auto;
 	position: relative;
 	width: 100%;
+
 /* 	background-color:#2c303a; */
 	color: #000;
 }
@@ -241,11 +242,8 @@ font-size: 25px;
 
 
 .bar_container{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-/* 	border: 1px solid; */
+	width: 402px;
+	margin: 0 auto;
 
 	
 }
@@ -677,5 +675,9 @@ footer a:hover{
  }
  nav .menu{
   display: none;
+ }
+ .skills{
+	transform: scale(0.6);
+ 	
  }
 }
